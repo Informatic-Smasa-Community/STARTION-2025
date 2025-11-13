@@ -49,14 +49,25 @@
   
   /* JUDUL */
   .title h1 {
-  font-family: 'Georgia', serif; /* atau font lain yang elegan */
-  font-size: 60px; /* sesuaikan dengan kebutuhan */
-  font-weight: bold;
-  line-height: 1.1; /* semakin kecil nilainya, semakin rapat vertikalnya */
-  color: #ffe365; /* kuning lebih terang agar lebih ngejreng */
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* biar muncul efek timbul */
-  letter-spacing: -2px; /* memperpendek jarak antar huruf */
-  }
+      font-size: 50px;
+      margin: 0 0px;
+      font-family: 'Georgia', serif; /* atau font lain yang elegan */
+    }
+    .text {
+      color: #3774c5 ;
+      margin: 2 0px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* biar muncul efek timbul */
+      vertical-align:text-top;
+    }
+    
+    .star {
+      color: #ffe365;
+      display: inline-block; /* supaya bisa dikasih efek sendiri */
+      margin: 0 3px; /* beri jarak kiri-kanan */
+      transform: scale(1.6); /* sedikit lebih besar dari huruf lain */
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.322); /* biar muncul efek timbul */
+    }
+    
 
   .title h3 {
     font-family: 'Georgia', serif; /* atau font lain yang elegan */
@@ -188,7 +199,7 @@
   }
   
   .info-container h2 {
-    color: #e2972d;
+    color: #1d61a1;
     margin-bottom: 6px;
     text-align: center;
   }
@@ -197,13 +208,14 @@
   .reminder {
     background: #fff3e0;
     padding: 15px;
+    text-align: justify;
     margin: 10px;
-    border-left: 5px solid #ffa500;
+    border-left: 5px solid #dd5948;
     border-radius: 5px;
   }
   
   .reminder h2 {
-    color: #d47200;
+    color: #dd5948;
     text-align: center;
   }
   
