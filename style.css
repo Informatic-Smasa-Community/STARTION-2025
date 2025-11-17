@@ -410,6 +410,16 @@
     font-size: 0.8rem;
   }
 
+  .floating.animate {
+    animation: pop 0.25s ease;
+  }
+  
+  @keyframes pop {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.4); }
+    100% { transform: scale(1); }
+  }
+
 /* --- Responsif untuk perangkat mobile --- */
 @media (max-width: 768px) {
   .puspresnas-infobox {
